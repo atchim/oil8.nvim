@@ -29,8 +29,8 @@ To load the color scheme with its default configuration, use the traditional
   :colorscheme oil8
 <                                                                *oil8.setup()*
 To load the color scheme with custom configuration, use the `setup` function,
-which takes an |Oil8Config| as its only argument. This function is exemplified
-in the following Lua code snippet.
+which takes an optional |Oil8Config| as its only argument. This function is
+exemplified in the following Lua code snippet.
 >lua
   require('oil8').setup({
     -- Terminal color support is enabled by default. Set it to `false` to
@@ -344,5 +344,4 @@ Neo-tree:         https://github.com/nvim-neo-tree/neo-tree.nvim
 nvim-treesitter:  https://github.com/nvim-treesitter/nvim-treesitter
 Oil 6:            https://lospec.com/palette-list/oil-6
 
-===============================================================================
 vim:ft=help:norl:nospell:tw=79
