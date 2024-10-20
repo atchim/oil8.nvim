@@ -1,0 +1,130 @@
+---@class oil8.palette.Palette
+---@field eerie_black string
+---@field dark_gunmetal string
+---@field space_cadet string
+---@field cyber_grape string
+---@field antique_fuchsia string
+---@field burnished_brown string
+---@field ecru string
+---@field bone string
+---@field caput_mortuum string
+---@field english_red string
+---@field brink_pink string
+---@field tulip string
+---@field dark_lava string
+---@field dirty_brown string
+---@field big_foot_feet string
+---@field macaroni_and_cheese string
+---@field bronze_yellow string
+---@field acid_green string
+---@field chinese_green string
+---@field inchworm string
+---@field kombu_green string
+---@field green_ryb string
+---@field mantis string
+---@field medium_aquamarine string
+---@field brunswick_green string
+---@field jungle_green string
+---@field turquoise string
+---@field middle_blue string
+---@field ateneo_blue string
+---@field steel_blue string
+---@field blue_jeans string
+---@field baby_blue_eyes string
+---@field pixie_powder string
+---@field blue_pigment string
+---@field violets_are_blue string
+---@field mauve string
+---@field japanese_violet string
+---@field byzantine string
+---@field light_deep_pink string
+---@field persian_pink string
+
+---@alias Oil8Palette oil8.palette.Palette
+
+---@class oil8.palette.Palette.Partial
+---@field eerie_black? string
+---@field dark_gunmetal? string
+---@field space_cadet? string
+---@field cyber_grape? string
+---@field antique_fuchsia? string
+---@field burnished_brown? string
+---@field ecru? string
+---@field bone? string
+---@field caput_mortuum? string
+---@field english_red? string
+---@field brink_pink? string
+---@field tulip? string
+---@field dark_lava? string
+---@field dirty_brown? string
+---@field big_foot_feet? string
+---@field macaroni_and_cheese? string
+---@field bronze_yellow? string
+---@field acid_green? string
+---@field chinese_green? string
+---@field inchworm? string
+---@field kombu_green? string
+---@field green_ryb? string
+---@field mantis? string
+---@field medium_aquamarine? string
+---@field brunswick_green? string
+---@field jungle_green? string
+---@field turquoise? string
+---@field middle_blue? string
+---@field ateneo_blue? string
+---@field steel_blue? string
+---@field blue_jeans? string
+---@field baby_blue_eyes? string
+---@field pixie_powder? string
+---@field blue_pigment? string
+---@field violets_are_blue? string
+---@field mauve? string
+---@field japanese_violet? string
+---@field byzantine? string
+---@field light_deep_pink? string
+---@field persian_pink? string
+
+-- stylua: ignore
+---@type oil8.palette.Palette
+return {
+  eerie_black         = '#171629',
+  dark_gunmetal       = '#1c1b34',
+  space_cadet         = '#292449',
+  cyber_grape         = '#5f4c73',
+  antique_fuchsia     = '#8c607b',
+  burnished_brown     = '#a77d72',
+  ecru                = '#bdab87',
+  bone                = '#e1e0c4',
+  caput_mortuum       = '#622d2d',
+  english_red         = '#aa3c55',
+  brink_pink          = '#f35e7c',
+  tulip               = '#fe7c8d',
+  dark_lava           = '#4b3a30',
+  dirty_brown         = '#b25c1f',
+  big_foot_feet       = '#f38f5e',
+  macaroni_and_cheese = '#fab98a',
+  bronze_yellow       = '#606c09',
+  acid_green          = '#bbbd28',
+  chinese_green       = '#d4e05c',
+  inchworm            = '#bcec6a',
+  kombu_green         = '#31452b',
+  green_ryb           = '#4eb332',
+  mantis              = '#72db5e',
+  medium_aquamarine   = '#6ceaa7',
+  brunswick_green     = '#1b5c4d',
+  jungle_green        = '#2d9f84',
+  turquoise           = '#58e9ca',
+  middle_blue         = '#84cfdd',
+  ateneo_blue         = '#024c67',
+  steel_blue          = '#367ba6',
+  blue_jeans          = '#54b7e8',
+  baby_blue_eyes      = '#a4b6fe',
+  pixie_powder        = '#3e2187',
+  blue_pigment        = '#413aa1',
+  violets_are_blue    = '#966ef2',
+  mauve               = '#dd9ffe',
+  japanese_violet     = '#592a5f',
+  byzantine           = '#b22ab7',
+  light_deep_pink     = '#e557cd',
+  persian_pink        = '#fc83c5',
+}
