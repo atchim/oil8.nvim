@@ -319,8 +319,8 @@ PALETTE                                                          *oil8-palette*
   | jungle_green        | #2d9f84 | 165 55 40 | 58 -38   5 |
   | turquoise           | #58e9ca | 167 76 62 | 84 -45   3 |
   | middle_blue         | #84cfdd | 189 56 69 | 78 -19 -14 |
-  | ateneo_blue         | #367ba6 | 203 50 43 | 49  -7 -29 |
-  | steel_blue          | #024c67 | 196 96 20 | 29  -9 -21 |
+  | ateneo_blue         | #024c67 | 196 96 20 | 29  -9 -21 |
+  | steel_blue          | #367ba6 | 203 50 43 | 49  -7 -29 |
   | blue_jeans          | #54b7e8 | 199 76 61 | 70 -14 -33 |
   | baby_blue_eyes      | #a4b6fe | 228 97 81 | 75  10 -37 |
   | pixie_powder        | #3e2187 | 257 60 32 | 23  39 -52 |
