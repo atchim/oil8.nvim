@@ -39,7 +39,7 @@ function M.setup(partial_config)
   end
 
   vim.cmd('hi clear')
-  if vim.fn.exists('syntax') then
+  if vim.g.syntax_on then
     vim.cmd('syntax reset')
   end
   vim.g.colors_name = 'oil8'

@@ -33,9 +33,9 @@ local hl_src = function(config)
     -- Keyword
     ['@keyword.conditional.ternary'] = { link = 'Operator' },
     ['@keyword.directive'] = { link = 'Preproc' },
-    ['@keyword.export'] = { link = '@keyword.return' },
+    ['@keyword.import'] = { fg = palette.persian_pink },
     ['@keyword.operator'] = { link = 'Operator' },
-    ['@keyword.return'] = { fg = palette.persian_pink },
+    ['@keyword.return'] = { link = '@keyword.import' },
 
     -- Markup
     ['@markup.link'] = { fg = palette.blue_jeans, underline = true },
@@ -53,8 +53,7 @@ local hl_src = function(config)
 
     -- String
     ['@string.documentation'] = { fg = palette.medium_aquamarine },
-    ['@string.regex'] = { fg = palette.medium_aquamarine },
-    ['@string.regexp'] = { link = '@string.regex' },
+    ['@string.regexp'] = { fg = palette.medium_aquamarine },
     ['@string.special.url'] = { fg = palette.turquoise, underline = true },
 
     -- Tag
