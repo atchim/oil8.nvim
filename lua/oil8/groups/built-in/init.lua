@@ -3,6 +3,7 @@ return {
   require('oil8.groups.built-in.diagnostics'),
   require('oil8.groups.built-in.diff'),
   require('oil8.groups.built-in.html'),
+  require('oil8.groups.built-in.lsp'),
   require('oil8.groups.built-in.prompt'),
   require('oil8.groups.built-in.search'),
   require('oil8.groups.built-in.spell'),

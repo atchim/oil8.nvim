@@ -6,12 +6,20 @@ local hl_src = function(config)
     DiagnosticError = { fg = palette.english_red },
     DiagnosticHint = { fg = palette.green_ryb },
     DiagnosticInfo = { fg = palette.acid_green },
+    DiagnosticOk = { fg = palette.mantis },
     DiagnosticWarn = { fg = palette.dirty_brown },
 
     DiagnosticUnderlineError = { sp = palette.english_red, underline = true },
     DiagnosticUnderlineHint = { sp = palette.green_ryb, underline = true },
     DiagnosticUnderlineInfo = { sp = palette.acid_green, underline = true },
+    DiagnosticUnderlineOk = { sp = palette.mantis, underline = true },
     DiagnosticUnderlineWarn = { sp = palette.dirty_brown, underline = true },
+
+    DiagnosticDeprecated = {
+      sp = palette.antique_fuchsia,
+      strikethrough = true,
+    },
+    DiagnosticUnnecessary = { link = 'Comment' },
   }
 end
 

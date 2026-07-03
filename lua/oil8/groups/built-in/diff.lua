@@ -21,6 +21,7 @@ local hl_src = function(config)
     DiffChange = { bg = palette.dark_lava },
     DiffDelete = { bg = palette.caput_mortuum },
     DiffText = { bg = palette.bronze_yellow, bold = true },
+    DiffTextAdd = { bg = palette.kombu_green, bold = true },
   }
 end
 
